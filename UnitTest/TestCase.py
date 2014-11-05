@@ -11,10 +11,10 @@ class TestCase(unittest.TestCase):
 
 	def test_area_Square1(self):
 		fig = Figuras()
-		self.assertEqual(4,fig.areaCuadrado(2.0,2.0))	
+		self.assertEqual(4.0,fig.areaCuadrado(2.0,2.0))	
 	def test_area_Square2(self):
 		fig = Figuras()
-		self.assertEqual(25,fig.areaCuadrado(5.0,5.0))
+		self.assertEqual(25.0,fig.areaCuadrado(5.0,5.0))
 	def test_area_Square3(self):
 		fig = Figuras()
 		self.assertEqual(12.25,fig.areaCuadrado(3.5,3.5))	
