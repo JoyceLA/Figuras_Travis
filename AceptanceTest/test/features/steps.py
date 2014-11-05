@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from lettuce import *
+from lettuce import world, step
 import sys
 sys.path.append("../")
 from Figuras import Figuras
@@ -47,7 +47,7 @@ def then_i_see_the_number_1(step, expected):
     assert world.area == int(expected),'Area = {0} y esperada = {1}'.format(world.area,expected)
 
 @step(u'Then I see the area "([^"]*)"')
-def then_i_see_the_number_1(step, expected):
+def then_i_see_the_number_1_float(step, expected):
     assert str(world.area) == str(expected),'Area = {0} y esperada = {1}'.format(world.area,expected)
 
 
