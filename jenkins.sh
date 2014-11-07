@@ -6,3 +6,4 @@ cd UnitTest
 python TestCase.py
 coverage run --branch TestCase.py
 coverage report -m
+coverage html --title="Reporte Figuras HTML"
